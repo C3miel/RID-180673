@@ -1,6 +1,7 @@
 **# RID-180673**
 
 **Link do site:** [https://desafio-site-responsivo.netlify.app/]
+
 **Design ultilizado:** [https://www.figma.com/design/tI1YsslgD5Oao1tAclxlfA/Blog-responsivo---DNC?node-id=0-1&p=f&t=hGAyCigwUUmBzIy6-0]
 
 
