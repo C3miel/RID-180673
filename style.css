@@ -1,0 +1,309 @@
+html{
+    font-family: 'Montserrat';
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    background-color: #02A28F;
+    color: #ffffff;
+}
+header > h1{
+    padding: 1rem 0 1rem 9.5rem;
+    margin: 0 0 3.125rem 0;
+}
+
+main{
+    margin-left: 9.5rem;
+    margin-right: 9.5rem;
+    display: grid;
+    grid-template-columns: 70% auto;
+    gap: 1.5rem;
+}
+
+
+
+.titles{
+    background-color: #02A28F;
+    color: #ffffff;
+    padding: 1rem 0 1rem 1.5rem;
+    margin: 0;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px -1px rgba(0,0,0,0.25);
+}
+
+#home{
+    width: 100%;
+    height: 25rem;
+    border-radius: 10px;
+    background-image: linear-gradient(to top, rgba(0,0,0,0.9)10%, rgba(0,0,0,0)), url(./assets/nav1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.l-white{
+    color:#ffffff ;
+    margin: 0;
+    position: relative;
+    top: 18.5rem;
+    left: 1.5rem;
+}
+
+.cards{
+    display: flex;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+    border-radius: 10px;
+    margin-top: 1.15rem;
+    padding: .5rem;
+    
+}
+.cards > img{
+    height: 5rem;
+    border-radius: 10px;
+}
+.cards h3{
+    margin: 0 0 .5rem 0.75rem;
+    font-size: .8rem;
+}
+.cards p{
+    margin: 0 0 0 0.75rem;
+    font-size: 0.75rem;
+}
+
+#lastPosts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #02A28F;
+    color: #ffffff;
+    height: 4.5rem;
+    padding: 0 1.5rem 0 1.5rem;
+    margin: 1.5rem 0 0 0;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px -1px rgba(0,0,0,0.25);
+    margin-bottom: .7rem;
+}
+
+.posts{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.postsId > img{
+    object-fit: cover;
+    width: 100%;
+    height: 12rem;
+    margin-bottom: .5rem;
+}
+.postsId > p{
+    font-size: 1rem;
+    margin: 0 0 .5rem;
+}
+.posts> h3{
+    font-size: 1.25rem;
+    margin: 0 0 .5rem;
+}
+
+.postsId{
+    box-shadow: 2px 4px 10px rgba(0,0,0,0.25);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.postsId > h3{
+    padding: 0 1rem 0 1rem;
+}
+.postsId > p{
+    padding: 0 1rem 0 1rem;
+}
+.postsId > p:last-child{
+    margin-bottom: 1rem;
+}
+
+.blueTitle{
+    color:#02A28F;
+}
+#legendTitle{
+    background-color: #02A28F;
+    color: #ffffff;
+    padding: 1rem 0 1rem 1.5rem;
+    margin: 1.6rem 0 0 0;
+    height: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px -1px rgba(0,0,0,0.25);
+}
+
+
+.containerLegend{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+
+footer{
+    background-color: #02A28F;
+    color: #ffffff;
+    height: 3rem;
+    font-weight: 600;
+    text-align: center;
+    align-content: center;
+    margin-top: 2.5rem;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  main{
+    margin-left: .5rem ;
+    margin-right: .5rem;
+    display: grid;
+    grid-template-columns: 70% auto;
+  
+  }
+  header > h1{
+    padding: 1rem 0 1rem 5rem;
+    margin: 0 0 3.125rem 0;
+  }
+
+  #home{
+    width: 100%;
+    height: 33.5rem;
+    border-radius: 10px;
+    background-image: linear-gradient(to top, rgba(0,0,0,0.9)10%, rgba(0,0,0,0)), url(./assets/nav1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 1.5rem;
+  }
+
+  .l-white{
+    color:#ffffff ;
+    margin: 0;
+    position: relative;
+    top: 27rem;
+    left: 1.5rem;
+  }
+  .cards{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .cards:last-child{
+    margin-bottom: 1rem;
+  }
+  .cards > img{
+    object-fit: cover;
+    margin-bottom: .5rem;
+    
+  }
+
+  .posts{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: .5rem;
+  }
+
+  #legendTitle{
+    background-color: #02A28F;
+    color: #ffffff;
+    padding: 1rem 0 1rem 1.5rem;
+    margin: 1.4rem 0 0 0;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px -1px rgba(0,0,0,0.25);
+  }
+
+
+    .containerLegend{
+        display: flex;
+        justify-content: space-between;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    .postsId > img{
+        object-fit: cover;
+        width: 100%;
+        height: 12rem;
+        margin-bottom: .5rem;
+    }
+    .postsId > p{
+        font-size: 1rem;
+        margin: 0 0 .5rem;
+    }
+
+    .postsId{
+        box-shadow: 2px 4px 10px rgba(0,0,0,0.25);
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .postsId > h3{
+        padding: 0 1rem 0 1rem;
+    }
+    .postsId > p{
+        padding: 0 1rem 0 1rem;
+    }
+    .postsId > p:last-child{
+        margin-bottom: 1rem;
+    }
+   
+}
+
+@media only screen and (max-width: 767px){
+
+    main{
+    max-width: 100%;
+    margin-left: .5rem ;
+    margin-right: .5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    }
+
+    .posts{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #lastPosts{
+        margin-bottom: 1.6rem;
+    }
+
+    header > h1{
+    padding: 1rem 0 1rem 0;
+    margin: 0 0 3.125rem 0;
+    text-align: center;
+    }
+
+    #home{
+        width:100%;
+        height: 24rem;
+        border-radius: 10px;
+        background-image: linear-gradient(to top, rgba(0,0,0,0.9)10%, rgba(0,0,0,0)), url(./assets/nav1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 1.5rem;   
+    }
+
+    .l-white{
+        
+        left: 0.5rem;
+        width: calc(100% - 1rem);
+        font-size: 1rem;
+    }
+
+    .titles{
+        text-align: center;
+        padding: 1rem 0 1rem 0rem;
+    }
+
+    #legendTitle{
+        text-align: center;
+        padding: 1rem 0 1rem 0;
+        margin: 1.6rem 0 0 0;
+    }
+  
+   
+}
