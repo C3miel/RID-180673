@@ -5,6 +5,7 @@
 **Design ultilizado:** [https://www.figma.com/design/tI1YsslgD5Oao1tAclxlfA/Blog-responsivo---DNC?node-id=0-1&p=f&t=hGAyCigwUUmBzIy6-0]
 
 
+
 **Explicação e Objetivo do Projeto**
 
 Este projeto tem como objetivo demonstrar a importância do design responsivo no desenvolvimento front-end.
